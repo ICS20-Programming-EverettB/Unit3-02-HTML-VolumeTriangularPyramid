@@ -1,10 +1,10 @@
 // Created by: Everett
-// Created on: March 2023
+// Created on: April 2023
 // This file contains the JS functions for index.html
 
 "use strict";
 /**
- * This function calculates total income and tax.
+ * This function calculates Volume .
  */
 function calculate () {
   // input
@@ -13,10 +13,10 @@ function calculate () {
   let ValueH = parseFloat(document.getElementById('value-h').value);
   
   // process
-  let area = 
+  let Volume = (1/6) * ValueA * ValueB * ValueH
   
   // output
-  document.getElementById('area-calculate').innerHTML = 'The area is:' + area.toFixed(2)
+  document.getElementById('volume-calculate').innerHTML = 'The volume is: ' + Volume.toFixed(2) + " cm3"
   
 
 }
